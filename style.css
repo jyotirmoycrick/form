@@ -1,7 +1,7 @@
 p,button,input
 {
     position: relative;
-    top: 50px;
+    top: 90px;
 }
 body
 {
@@ -23,7 +23,7 @@ body
     div
     {
         position: relative;
-        right: 45px;
+        right: 123px;
     }
     body{
     background-size: 1500px !important;
@@ -42,7 +42,7 @@ body
     
         background-position-x: right;
 
-   background-size: 1100px;
+   background-size: 1600px;
 
 }
 
@@ -59,9 +59,9 @@ div
     
     padding: 0px;
     margin: 0px;
-    width: 200px;
+    width: 350px;
     margin-left: 37%;
-    height: 200px;
+    height: 350px;
     border-radius: 10px;
     backdrop-filter: blur(10px);
     border: 1px solid white;
@@ -71,13 +71,14 @@ p
     margin: 0px;
     margin-bottom: 4px;
     color: white;
+    font-size: 23px;
 }
 button
 {
     margin-top: 5px;
     width: 100%;
     color: white;
-    height: 25px;
+    height: 35px;
     background-color: rgb(131, 8, 246);
     cursor: pointer;
 
@@ -89,6 +90,6 @@ button:hover
 
 input
 {
-    width: 96.4%;
-    height: 25px;
+    width: 98%;
+    height: 35px;
 }
