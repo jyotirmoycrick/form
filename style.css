@@ -1,0 +1,94 @@
+p,button,input
+{
+    position: relative;
+    top: 50px;
+}
+body
+{
+    margin: 0px;
+    padding: 0px;
+}
+#ham
+{
+    background-color: red;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+
+@media (max-width: 765px) {
+
+
+    div
+    {
+        position: relative;
+        right: 45px;
+    }
+    body{
+    background-size: 1500px !important;
+    }
+
+    
+
+
+    
+}
+
+
+body
+{
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.349), rgba(0, 0, 0, 0.349)), url('hhh.jpg');
+    
+        background-position-x: right;
+
+   background-size: 1100px;
+
+}
+
+
+p
+{
+    text-align: center;
+    font-weight: 700;
+   
+}
+
+div
+{
+    
+    padding: 0px;
+    margin: 0px;
+    width: 200px;
+    margin-left: 37%;
+    height: 200px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 1px solid white;
+}
+p
+{
+    margin: 0px;
+    margin-bottom: 4px;
+    color: white;
+}
+button
+{
+    margin-top: 5px;
+    width: 100%;
+    color: white;
+    height: 25px;
+    background-color: rgb(131, 8, 246);
+    cursor: pointer;
+
+}
+button:hover
+{
+    background-color: rgb(104, 0, 201);
+}
+
+input
+{
+    width: 96.4%;
+    height: 25px;
+}
